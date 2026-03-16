@@ -37,6 +37,9 @@ Password dihasilkan secara acak dengan kombinasi **angka, huruf besar, huruf kec
 ---
 
 ## Cara Menjalankan Program
+```bash
+python banner.py
+```
 
 ### 1. Pastikan Python sudah terpasang
 ```bash
