@@ -32,8 +32,8 @@ while True:
     ambil_karakter = random.sample(karakter, 2)
     ambil_kata = random.sample(kata, 1)
 
-    sandi = ambil_angka + ambil_Huruf + ambil_huruf + ambil_karakter + ambil_kata
-    random.shuffle(sandi)
+    sandi = ambil_kata + ambil_angka + ambil_Huruf + ambil_huruf + ambil_karakter 
+    # random.shuffle(sandi)
     sandi_str = ''.join(str(i) for i in sandi)
 
     print("Sandi kamu:", sandi_str)
